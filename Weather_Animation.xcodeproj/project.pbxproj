@@ -11,6 +11,8 @@
 		F78C43E02A179E83001A0C5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C43DF2A179E83001A0C5B /* ContentView.swift */; };
 		F78C43E22A179E86001A0C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78C43E12A179E86001A0C5B /* Assets.xcassets */; };
 		F78C43E52A179E86001A0C5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F78C43E42A179E86001A0C5B /* Preview Assets.xcassets */; };
+		F78C43ED2A179ED6001A0C5B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C43EB2A179ED6001A0C5B /* DataModel.swift */; };
+		F78C43EE2A179ED6001A0C5B /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C43EC2A179ED6001A0C5B /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F78C43DF2A179E83001A0C5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F78C43E12A179E86001A0C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F78C43E42A179E86001A0C5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F78C43EB2A179ED6001A0C5B /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F78C43EC2A179ED6001A0C5B /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				F78C43DD2A179E83001A0C5B /* Weather_AnimationApp.swift */,
+				F78C43EB2A179ED6001A0C5B /* DataModel.swift */,
+				F78C43EC2A179ED6001A0C5B /* PickerView.swift */,
 				F78C43DF2A179E83001A0C5B /* ContentView.swift */,
 				F78C43E12A179E86001A0C5B /* Assets.xcassets */,
 				F78C43E32A179E86001A0C5B /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78C43EE2A179ED6001A0C5B /* PickerView.swift in Sources */,
 				F78C43E02A179E83001A0C5B /* ContentView.swift in Sources */,
 				F78C43DE2A179E83001A0C5B /* Weather_AnimationApp.swift in Sources */,
+				F78C43ED2A179ED6001A0C5B /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
